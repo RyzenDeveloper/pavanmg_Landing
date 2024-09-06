@@ -1,0 +1,74 @@
+@media (max-width: 1200px) {
+    #bag1 {
+        width: 1000px;
+    }
+    #bag2 {
+        width: 1000px;
+    }
+    #bag3 {
+        width: 800px;
+    }
+    #grid {
+        width: 800px;
+        grid-template-columns: 200px 200px 200px 200px;
+    }
+    #bag4 {
+        width: 800px;
+    }
+    #grid1 {
+        grid-template-columns: 375px 375px;
+    }
+    #bag5 {
+        width: 1000px;
+    }
+    #border {
+        width: 1000px;
+    }
+    .menu {
+        width: 400px;
+    }
+    .dvig {
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+    .dvig1 {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #bag1 {
+        width: 800px;
+    }
+    #menu .reh {
+        margin-right: 25px;
+    }
+    .brows {
+        margin-left: 25px;
+    }
+    #menu li a {
+        font-size: 22px;
+    }
+    #bag2 {
+        width: 800px;
+    }
+    .text {
+        width: 433px;
+        font-size: 40px;
+    }
+    .gradient-text {
+        font-size: 40px;
+    }
+    #bag5 {
+        width: 800px;
+    }
+    #border {
+        width: 800px;
+    }
+    .menu {
+        width: 330px;
+    }
+    .menu li .gies {
+        margin-right: 0px;
+    }
+}
