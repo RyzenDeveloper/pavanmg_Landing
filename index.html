@@ -1,212 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>PavanMG</title>
-	<link rel="icon" type="image/x-icon" href="favicon/user.svg">
-	<link rel="stylesheet" href="css/stylesheet.css">
+    <meta charset="utf-8">
+    <title>PavanMG</title>
+    <link rel="icon" type="image/x-icon" href="favicon/user.svg">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <header class="header">
-	<div class="container header__container">
-		<div class="header__logo">
-			<img src="img/logo.png" alt="Logo" class="header__logo">
-		</div>
-		<nav class="header__nav">
-			<ul class="header__menu">
-				<li class="header__menu-item"><a class="header__text" href="#">Home</a></li>
-				<li class="header__menu-item"><a class="header__text" href="#">About</a></li>
-				<li class="header__menu-item"><a class="header__text" href="#">Tech Stack</a></li>
-				<li class="header__menu-item"><a class="header__text" href="#">Projects</a></li>
-				<li class="header__menu-item"><a class="header__text" href="#">Contact</a></li>
-				<li class="header__menu-item header__menu-item--social">
-					<a href="#"><img src="./img/svg/github-gray.svg" alt="GitHub" class="header__social-icon"></a>
-					<a href="#"><img src="./img/svg/twitter_gray.svg" alt="Twitter" class="header__social-icon"></a>
-					<a href="#"><img src="./img/svg/linkin_gray.svg" alt="LinkedIn" class="header__social-icon"></a>
-				</li>
-			</ul>
-		</nav>
-	</div>
+    <img src="img/logo.png" class="logo" alt="logo">
+    <ul class="nav">
+        <li class="nav__item"><a href="#">Home</a></li>
+        <li class="nav__item"><a href="#">About</a></li>
+        <li class="nav__item"><a href="#">Tech Stack</a></li>
+        <li class="nav__item"><a href="#">Projects</a></li>
+        <li class="nav__item--contact"><a href="#">Contact</a></li>
+        <li class="nav__item--social">
+            <img src="img/svg/github-gray.svg" alt="github">
+            <img src="img/svg/twitter_gray.svg" alt="twitter">
+            <img src="img/svg/linkin_gray.svg" alt="linkin">
+        </li>
+    </ul>
 </header>
+<main>
+    <section class="intro">
+        <p class="intro__text">
+            <span class="intro__greeting">Hi <img src="img/hi.png" alt="wave" class="intro__emoji"></span>
+            <span class="intro__detail">My name is</span>
+            <span class="gradient-text">Pavan MG</span>
+            <span class="intro__detail">I build things for web</span>
+        </p>
+        <img src="img/pavan.png" alt="pavan">
+    </section>
 
-<main class="main">
-	<section class="intro">
-		<div class="container">
-			<div class="intro__text">
-				<p>
-					Hi <img src="img/hi.png" alt="Handwave" class="intro__emoji">, <br>
-					My name is <br>
-					<span class="intro__highlight">Pavan MG</span><br>
-					I build things for web
-				</p>
-			</div>
-		</div>
-	</section>
+    <section class="tech-stack">
+        <h1 class="tech-stack__title">My Tech Stack</h1>
+        <p class="tech-stack__description">Technologies I’ve been working with recently</p>
+        <ul class="tech-stack__grid">
+            <li class="tech-stack__list"><img src="img/svg/vscode-icons_file-type-html.svg" alt="html"></li>
+            <li class="tech-stack__list"><img src="img/svg/vscode-icons_file-type-css.svg" alt="css"></li>
+            <li class="tech-stack__list"><img src="img/svg/vscode-icons_file-type-js-official.svg" alt="js"></li>
+            <li class="tech-stack__list"><img src="img/svg/logos_react.svg" alt="react"></li>
+            <li class="tech-stack__list"><img src="img/svg/Vector.svg" alt="vector"></li>
+            <li class="tech-stack__list"><img src="img/svg/logos_bootstrap.svg" alt="bootstrap"></li>
+            <li class="tech-stack__list"><img src="img/svg/vscode-icons_file-type-tailwind.svg" alt="tailwind"></li>
+            <li class="tech-stack__list"><img src="img/svg/logos_sass.svg" alt="sass"></li>
+            <li class="tech-stack__list"><img src="img/svg/logos_git-icon.svg" alt="icon"></li>
+            <li class="tech-stack__list"><img src="img/svg/cib_greensock.svg" alt="greensock"></li>
+            <li class="tech-stack__list"><img src="img/svg/vscode-icons_file-type-vscode.svg" alt="vscode"></li>
+            <li class="tech-stack__list"><img src="img/svg/logos_git-icon.svg" alt="git"></li>
+        </ul>
+    </section>
 
-	<section class="tech-stack">
-		<div class="container">
-			<h1 class="tech-stack__title">My Tech Stack</h1>
-			<p class="tech-stack__description">Technologies I’ve been working with recently</p>
-			<div class="tech-stack__grid">
-				<div><img src="./img/svg/vscode-icons_file-type-css.svg" alt="HTML" class="tech-stack__icon"></div>
-				<div><img src="./img/svg/vscode-icons_file-type-html.svg" alt="CSS" class="tech-stack__icon"></div>
-				<div><img src="./img/svg/vscode-icons_file-type-js-official.svg" alt="JavaScript" class="tech-stack__icon"></div>
-				<div><img src="./img/svg/logos_react.svg" alt="React" class="tech-stack__icon"></div>
-				<div><img src="./img/svg/Vector.svg" alt="Vector" class="tech-stack__icon"></div>
-				<div><img src="./img/svg/logos_bootstrap.svg" alt="Bootstrap" class="tech-stack__icon"></div>
-				<div><img src="./img/svg/vscode-icons_file-type-tailwind.svg" alt="Tailwind" class="tech-stack__icon"></div>
-				<div><img src="./img/svg/logos_sass.svg" alt="SASS" class="tech-stack__icon"></div>
-				<div><img src="./img/svg/logos_git-icon.svg" alt="Icon" class="tech-stack__icon"></div>
-				<div><img src="./img/svg/cib_greensock.svg" alt="Greensock" class="tech-stack__icon"></div>
-				<div><img src="./img/svg/vscode-icons_file-type-vscode.svg" alt="VSCode" class="tech-stack__icon"></div>
-				<div><img src="./img/svg/akar-icons_github-fill.svg" alt="Git" class="tech-stack__icon"></div>
-			</div>
-		</div>
-	</section>
-
-	<section class="projects">
-		<div class="container">
-			<h1 class="projects__title">Projects</h1>
-			<p class="projects__description">Things I’ve built so far</p>
-
-			<div class="projects__grid">
-				<!-- Project 1 -->
-				<div class="project">
-					<img src="img/img1.png" alt="Project 1" class="project__image">
-					<h2 class="project__title">Project Title goes here</h2>
-					<p class="project__description">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
-					<p class="project__stack">Tech stack: <span class="project__stack-item">HTML, CSS, JavaScript, React</span></p>
-					<div class="project__links">
-					<span class="project__link">
-						<img src="img/svg/akar-icons_link-chain.svg" alt="Live Preview" class="project__link-icon">
-						<a class="list-reset" href="#">Live Preview</a>
-					</span>
-						<span class="project__link">
-						<img src="img/svg/akar-icons_github-fill_small.svg" alt="View Code" class="project__link-icon">
-						<a class="list-reset" href="#">View Code</a>
-					</span>
-					</div>
-				</div>
-
-				<!-- Project 2 -->
-				<div class="project">
-					<img src="img/img2.png" alt="Project 2" class="project__image">
-					<h2 class="project__title">Project Title goes here</h2>
-					<p class="project__description">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
-					<p class="project__stack">Tech stack: <span class="project__stack-item">HTML, SASS, JavaScript, Vue.js</span></p>
-					<div class="project__links">
-					<span class="project__link">
-						<img src="img/svg/akar-icons_link-chain.svg" alt="Live Preview" class="project__link-icon">
-						<a class="list-reset" href="#">Live Preview</a>
-					</span>
-						<span class="project__link">
-						<img src="img/svg/akar-icons_github-fill_small.svg" alt="View Code" class="project__link-icon">
-						<a class="list-reset" href="#">View Code</a>
-					</span>
-					</div>
-				</div>
-
-				<!-- Project 3 -->
-				<div class="project">
-					<img src="img/img3.png" alt="Project 3" class="project__image">
-					<h2 class="project__title">Project Title goes here</h2>
-					<p class="project__description">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
-					<p class="project__stack">Tech stack: <span class="project__stack-item">HTML, CSS, JavaScript, Node.js</span></p>
-					<div class="project__links">
-					<span class="project__link">
-						<img src="img/svg/akar-icons_link-chain.svg" alt="Live Preview" class="project__link-icon">
-						<a class="list-reset" href="#">Live Preview</a>
-					</span>
-						<span class="project__link">
-						<img src="img/svg/akar-icons_github-fill_small.svg" alt="View Code" class="project__link-icon">
-						<a class="list-reset" href="#">View Code</a>
-					</span>
-					</div>
-				</div>
-
-				<!-- Project 4 -->
-				<div class="project">
-					<img src="img/img4.png" alt="Project 4" class="project__image">
-					<h2 class="project__title">Project Title goes here</h2>
-					<p class="project__description">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
-					<p class="project__stack">Tech stack: <span class="project__stack-item">HTML, Tailwind, JavaScript, React</span></p>
-					<div class="project__links">
-					<span class="project__link">
-						<img src="img/svg/akar-icons_link-chain.svg" alt="Live Preview" class="project__link-icon">
-						<a class="list-reset" href="#">Live Preview</a>
-					</span>
-						<span class="project__link">
-						<img src="img/svg/akar-icons_github-fill_small.svg" alt="View Code" class="project__link-icon">
-						<a class="list-reset" href="#">View Code</a>
-					</span>
-					</div>
-				</div>
-
-				<!-- Project 5 -->
-				<div class="project">
-					<img src="img/img5.png" alt="Project 5" class="project__image">
-					<h2 class="project__title">Project Title goes here</h2>
-					<p class="project__description">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
-					<p class="project__stack">Tech stack: <span class="project__stack-item">HTML, CSS, JavaScript, Angular</span></p>
-					<div class="project__links">
-					<span class="project__link">
-						<img src="img/svg/akar-icons_link-chain.svg" alt="Live Preview" class="project__link-icon">
-						<a class="list-reset" href="#">Live Preview</a>
-					</span>
-						<span class="project__link">
-						<img src="img/svg/akar-icons_github-fill_small.svg" alt="View Code" class="project__link-icon">
-						<a class="list-reset" href="#">View Code</a>
-					</span>
-					</div>
-				</div>
-
-				<!-- Project 6 -->
-				<div class="project">
-					<img src="img/img6.png" alt="Project 6" class="project__image">
-					<h2 class="project__title">Project Title goes here</h2>
-					<p class="project__description">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
-					<p class="project__stack">Tech stack: <span class="project__stack-item">HTML, CSS, JavaScript, Express</span></p>
-					<div class="project__links">
-					<span class="project__link">
-						<img src="img/svg/akar-icons_link-chain.svg" alt="Live Preview" class="project__link-icon">
-						<a class="list-reset" href="#">Live Preview</a>
-					</span>
-						<span class="project__link">
-						<img src="img/svg/akar-icons_github-fill_small.svg" alt="View Code" class="project__link-icon">
-						<a class="list-reset" href="#">View Code</a>
-					</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section class="projects">
+        <h1 class="projects__title">Projects</h1>
+        <p class="projects__description"> Technologies I’ve been working with recently</p>
+        <div class="projects__grid">
+            <div>
+                <img src="img/img1.png" alt="logo">
+                <h1 class="project__name">Project Tile goes here</h1>
+                <p class="project__details">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+                <p class="project__tech-stack">Tech stack : <span class="project__technologies">HTML , JavaScript, SASS, React</span></p>
+                <p class="project__links">
+                    <span class="project-link__chain"><img src="img/svg/akar-icons_link-chain.svg" class="project__link--live" alt="chain"><a href="">Live Preview</a></span>
+                    <span class="project-link__git "><img src="img/svg/akar-icons_github-fill_small.svg" class="project__link--code" alt="git"><a href="">View Code</a></span></p>
+            </div>
+            <div>
+                <img src="img/img2.png" alt="logo">
+                <h1 class="project__name">Project Tile goes here</h1>
+                <p class="project__details">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+                <p class="project__tech-stack">Tech stack : <span class="project__technologies">HTML , JavaScript, SASS, React</span></p>
+                <p class="project__links">
+                    <span class="project-link__chain"><img src="img/svg/akar-icons_link-chain.svg" class="project__link--live" alt="chain"><a href="">Live Preview</a></span>
+                    <span class="project-link__git"><img src="img/svg/akar-icons_github-fill_small.svg" class="project__link--code" alt="git"><a href="">View Code</a></span></p>
+            </div>
+            <div>
+                <img src="img/img3.png" alt="logo">
+                <h1 class="project__name">Project Tile goes here</h1>
+                <p class="project__details">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+                <p class="project__tech-stack">Tech stack : <span class="project__technologies">HTML , JavaScript, SASS, React</span></p>
+                <p class="project__links">
+                    <span class="project-link__chain"><img src="img/svg/akar-icons_link-chain.svg" class="project__link--live" alt="chain"><a href="">Live Preview</a></span>
+                    <span class="project-link__git"><img src="img/svg/akar-icons_github-fill_small.svg" class="project__link--code" alt="git"><a href="">View Code</a></span></p>
+            </div>
+            <div>
+                <img src="img/img4.png" alt="logo">
+                <h1 class="project__name">Project Tile goes here</h1>
+                <p class="project__details">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+                <p class="project__tech-stack">Tech stack : <span class="project__technologies">HTML , JavaScript, SASS, React</span></p>
+                <p class="project__links">
+                    <span class="project-link__chain"><img src="img/svg/akar-icons_link-chain.svg" class="project__link--live" alt="chain"><a href="">Live Preview</a></span>
+                    <span class="project-link__git"><img src="img/svg/akar-icons_github-fill_small.svg" class="project__link--code" alt="git"><a href="">View Code</a></span></p>
+            </div>
+            <div>
+                <img src="img/img5.png" alt="logo">
+                <h1 class="project__name">Project Tile goes here</h1>
+                <p class="project__details">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+                <p class="project__tech-stack">Tech stack : <span class="project__technologies">HTML , JavaScript, SASS, React</span></p>
+                <p class="project__links">
+                    <span class="project-link__chain"><img src="img/svg/akar-icons_link-chain.svg" class="project__link--live" alt="chain"><a href="">Live Preview</a></span>
+                    <span class="project-link__git"><img src="img/svg/akar-icons_github-fill_small.svg" class="project__link--code" alt="git"><a href="">View Code</a></span></p>
+            </div>
+            <div>
+                <img src="img/img6.png" alt="logo">
+                <h1 class="project__name">Project Tile goes here</h1>
+                <p class="project__details">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+                <p class="project__tech-stack">Tech stack : <span class="project__technologies">HTML , JavaScript, SASS, React</span></p>
+                <p class="project__links">
+                    <span class="project-link__chain"><img src="img/svg/akar-icons_link-chain.svg" class="project__link--live" alt="chain"><a href="">Live Preview</a></span>
+                    <span class="project-link__git"><img src="img/svg/akar-icons_github-fill_small.svg" class="project__link--code" alt="git"><a href="">View Code</a></span></p>
+            </div>
+        </div>
+    </section>
 </main>
 
 <footer class="footer">
-	<div class="container">
-		<img src="img/logo1.png" alt="Footer Logo" class="footer__logo">
-		<div class="footer__info">
-			<a href="tel:+911234509876" class="footer__phone">+91 12345 09876</a>
-			<a href="mailto:info@example.com" class="footer__email">info@example.com</a>
-			<p class="footer__social">
-				<img src="img/svg/akar-icons_github-fill_dark.svg" alt="GitHub" class="footer__social-icon">
-				<img src="img/svg/ant-design_twitter-circle-dark.svg" alt="Twitter" class="footer__social-icon">
-				<img src="img/svg/entypo-social_linkedin-with-circle_dark.svg" alt="LinkedIn" class="footer__social-icon">
-			</p>
-		</div>
-		<div class="footer__border"></div>
-		<nav class="footer__nav">
-			<ul class="footer__menu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Technologies</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-			<p class="footer__credit">Designed and built by <span class="footer__credit-name">Pavan MG</span> with <span class="footer__love">Love</span> & <span class="footer__coffee">Coffee</span></p>
-		</nav>
-	</div>
+    <img src="img/logo1.png" alt="logo">
+    <div class="footer__contacts">
+        <a href="tel:+911234509876" class="footer__phone">+91 12345 09876</a>
+        <a href="mailto:info@example.com" class="footer__email">info@example.com</a>
+        <p class="footer__social-icons">
+            <img src="img/svg/akar-icons_github-fill_dark.svg" alt="github">
+            <img src="img/svg/ant-design_twitter-circle-dark.svg" alt="twitter">
+            <img src="img/svg/entypo-social_linkedin-with-circle_dark.svg" alt="linkedin">
+        </p>
+    </div>
+    <div id="border"></div>
+    <div class="footer__bottom">
+        <ul class="footer__menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href=" ">Technologies</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <p class="footer__credits">Designed and built by <span class="footer__author">Pavan MG</span> with <span class="footer__love">Love</span> & <span class="footer__coffee">Coffee</span></p>
+    </div>
 </footer>
 </body>
 </html>

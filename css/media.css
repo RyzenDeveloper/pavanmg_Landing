@@ -1,95 +1,67 @@
 @media (max-width: 1200px) {
-    #bag1 {
+    .header {
         width: 1000px;
     }
-    #bag2 {
+    .intro {
         width: 1000px;
     }
-    #bag3 {
+    .tech-stack {
         width: 800px;
     }
-    #grid {
+    .tech-stack__grid {
         width: 800px;
         grid-template-columns: 200px 200px 200px 200px;
     }
-    #bag4 {
+    .projects {
         width: 800px;
     }
-    #grid1 {
+    .projects__grid {
         grid-template-columns: 375px 375px;
     }
-    #bag5 {
+    .footer {
         width: 1000px;
     }
     #border {
         width: 1000px;
     }
-    .menu {
+    .footer__menu {
         width: 400px;
-    }
-    .dvig {
-        margin-left: 60px;
-        margin-top: 10px;
-    }
-    .dvig1 {
-        margin-top: 10px;
     }
 }
 
 @media (max-width: 1000px) {
-    #bag1 {
+    .header {
         width: 800px;
     }
-    #menu .reh {
+    .nav .nav__item {
         margin-right: 25px;
     }
-    .brows {
+    .nav__item--social {
         margin-left: 25px;
     }
-    #menu li a {
+    .mav li a {
         font-size: 22px;
     }
-    #bag2 {
+    .intro {
         width: 800px;
     }
-    .text {
+    .intro__text {
         width: 433px;
         font-size: 40px;
     }
     .gradient-text {
         font-size: 40px;
     }
-    #bag5 {
+    .footer {
         width: 800px;
     }
     #border {
         width: 800px;
     }
-    .menu {
+    .footer__menu {
         width: 330px;
     }
-    .menu li .gies {
-        margin-right: 0px;
-    }
-}
-
-@media (max-width: 768px) {
-    .intro {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .intro::before {
-        width: 200px;
-        height: 200px;
-        background-size: contain; /* Make sure the image and gradient fit */
-        top: auto;
-        bottom: 0;
-        right: 50%;
-        transform: translateX(50%);
-    }
-
-    .intro__text {
-        margin-bottom: 20px;
+    .footer__menu li {
+        margin-right: 0;
     }
 }
