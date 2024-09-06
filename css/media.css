@@ -21,9 +21,6 @@
     .footer {
         width: 1000px;
     }
-    #border {
-        width: 1000px;
-    }
     .footer__menu {
         width: 400px;
     }
@@ -53,9 +50,6 @@
         font-size: 40px;
     }
     .footer {
-        width: 800px;
-    }
-    #border {
         width: 800px;
     }
     .footer__menu {
