@@ -19,13 +19,19 @@
     font-style: normal;
 }
 
+.link-style:hover,
+.link-style:focus,
+.link-style:active{
+    color: #7D60D0;
+    transition: all 0.5s ease;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 /* header */
-
 .header {
     margin: 49px auto;
     width: 1200px;
@@ -77,7 +83,6 @@
 }
 
 /* intro */
-
 .intro__text,
 .intro__detail,
 .intro__name,
@@ -106,7 +111,6 @@
 }
 
 /* tech-stack */
-
 .tech-stack {
     width: 1200px;
     margin: 320px auto 0;
@@ -136,6 +140,7 @@
     width: 1200px;
     grid-template-columns: 200px 200px 200px 200px 200px 200px;
     margin-top: 100px;
+    row-gap: 78px;
 }
 
 .tech-stack__grid div {
@@ -152,7 +157,6 @@
 }
 
 /* Project */
-
 .projects {
     width: 1200px;
     margin: 200px auto 0;
@@ -264,7 +268,6 @@
 }
 
 /* footer */
-
 .footer {
     margin: 200px auto 0;
     width: 1200px;
